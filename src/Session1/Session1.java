@@ -11,8 +11,8 @@ public class Session1 {
         return area;
     }
 
-    private static float getTrapezoidArea(float upperBase, float loweBase, float height) {
-        float area = ((upperBase + loweBase) / 2) * height;
+    private static float getTrapezoidArea(float upperBase, float lowerBase, float height) {
+        float area = ((upperBase + lowerBase) / 2) * height;
         return area;
     }
 }
