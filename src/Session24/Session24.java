@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Session24 {
 
     public static void main(String[] args) {
-        String s1 = "HELLOWORLD";
-        String s2 = "OHELOD";
-        System.out.println("String 1: " + s1);
-        System.out.println("String 2: " + s2);
-        lcs(s1.toCharArray(), s2.toCharArray());
+        String string1 = "HELLOWORLD";
+        String string2 = "OHELOD";
+        System.out.println("String 1: " + string1);
+        System.out.println("String 2: " + string2);
+        lcs(string1.toCharArray(), string2.toCharArray());
     }
 
     private static void lcs(char[] horizontal, char[] vertical) {
