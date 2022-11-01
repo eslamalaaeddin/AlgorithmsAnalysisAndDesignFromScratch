@@ -11,7 +11,7 @@ public class Session23 {
 
         public State(char from, char to, int cost) {
             this.from = from;
-            this.to = to;
+            this.to =to;
             this.cost = cost;
         }
 
